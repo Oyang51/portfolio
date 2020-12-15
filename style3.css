@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+/* CSS for Nav */
+nav {
+	float: none;
+	width: none;
+	font-family: 'Oswald';
+	color: white;
+	text-align: right;
+	border-bottom: #000000 2px solid;
+	border-top: #000000 2px solid;
+	background-color: #46474a;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+nav ul{
+	list-style-type:none;
+	margin:0;
+	padding-left:0;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+/* CSS for Nav */
+main{
+	max-width: 1200px;
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+}
+body{
+	background-color: white;
+	background-image:url(images/background-image.jpg);
+}
+.photo{
+	margin: 1em;
+	display: block;
+	border: #000000 2px solid;
+	float: right;
+	border-radius: 3px;
+}
+.photo2{
+	margin: 3em;
+	display: block;
+	border: #000000 2px solid;
+	float: right;
+	border-radius: 3px;
+}
+i.fa{
+	font-size: 5em;
+	color: #000000;
+}
+.col-sm-4{
+	text-align: center;
+	padding-left: 500px;
+}
+footer{
+	border-top: #000000 2px solid;
+	border-bottom: #000000 2px solid;
+	background-color: #46474a;
+}
+/* Text CSS */
+h3{
+	text-align: center;
+	font-family: 'Oswald';
+	color: black;
+}
+h4{
+	font-family: 'Oswald';
+	color: black;
+}
+h5{
+	font-family: 'Oswald';
+	color: black;
+}
+h6{
+	font-family: 'Roboto';
+	color: tan;
+}
+li{
+	font-family: 'Roboto';
+	color: tan;
+}
+p{
+	color: tan;
+	font-family: 'Roboto';
+	padding-left: 20px;
+}
+h2{
+	color: black;
+	font-family: 'Oswald';
+}
+/* Text CSS */
+/* CSS For Tablets */
+@media only screen and (max-width: 1024px) {
+	body{
+		margin: 0;
+	}
+	.col-sm-4{
+		padding-left: 15em;
+	}
+	.photo,.photo2{
+		width: 370px;
+		height: 500px;
+	}
+	footer{
+		margin: 0;
+	}
+	p{
+		padding-left: 10px;
+	}
+}
+
+
+/* CSS For Smartphones */
+@media only screen and (max-width: 768px) {
+	.photo,.photo2{
+		display: none;
+	}
+	.col-sm-4{
+		padding: 0px;
+	}
+	h3{
+		text-align: left;
+	}
+	footer{
+		margin: 0;
+	}
+	p{
+		padding-left: 0px;
+	}
+}
